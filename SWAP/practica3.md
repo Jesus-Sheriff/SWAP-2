@@ -12,6 +12,7 @@ En esta práctica se llevarán a cabo, como mínimo, las siguientes tareas:
 
 **1.Instalar una nueva maquina para el balanceador.**
 	Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga.
+	
 **2.Instalacion nginx **
 	
 - Importamos la clave del repositorio de software
