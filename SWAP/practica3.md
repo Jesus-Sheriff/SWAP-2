@@ -45,7 +45,7 @@ Y añadimos lo siguiente:
 	
 - Comprobamos que funciona correctamente con el comando curl
 
-	![enter image description here](https://imageshack.com/i/poeHsvM3p)
+		![enter image description here](https://imageshack.com/i/poeHsvM3p)
 
 
 Si sabemos si una máquina es más potente que otra podemos modificar la carga que se le da a cada una, a través del modificador llamado "weight"
