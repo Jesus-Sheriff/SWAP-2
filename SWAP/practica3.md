@@ -11,6 +11,7 @@ En esta práctica se llevarán a cabo, como mínimo, las siguientes tareas:
 
 
 **1.Instalar una nueva maquina para el balanceador.**
+
 	Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga.
 	
 **2.Instalacion nginx**
@@ -46,7 +47,7 @@ Y añadimos lo siguiente:
 	
 - Comprobamos que funciona correctamente con el comando curl
 
-		![enter image description here](http://imageshack.com/a/img924/6082/eHsvM3.png)
+	![enter image description here](http://imageshack.com/a/img924/6082/eHsvM3.png)
 
 
 Si sabemos si una máquina es más potente que otra podemos modificar la carga que se le da a cada una, a través del modificador llamado "weight"
