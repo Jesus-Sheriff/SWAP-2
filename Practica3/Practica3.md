@@ -53,7 +53,7 @@ Y añadimos lo siguiente:
 Si sabemos si una máquina es más potente que otra podemos modificar la carga que se le da a cada una, a través del modificador llamado "weight"
 
 
-**2.Instalacion haProxy**
+**2.Instalación haProxy**
 
 	apt-get install haproxy
 
