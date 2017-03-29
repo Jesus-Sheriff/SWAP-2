@@ -12,7 +12,7 @@ En esta práctica se llevarán a cabo, como mínimo, las siguientes tareas:
 
 **1.Instalar una nueva maquina para el balanceador.**
 
-Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga.
+Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga, teniendo en cuenta que no debemos instalar Apache porque éste se apropia del puerto 80.
 	
 **2.Instalacion nginx**
 	
