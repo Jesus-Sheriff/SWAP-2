@@ -55,7 +55,9 @@ Si sabemos si una máquina es más potente que otra podemos modificar la carga q
 
 **2.Instalación haProxy**
 
-	apt-get install haproxy
+Tenemos que reiniciar la máquina o para el servicio de nginx (service nginx stop) para dejar el puerto 80 libre para haProxy.
+Procedemos con la instalación de haproxy
+apt-get install haproxy
 
 - Una vez instalado procedemos a modificar el archivo de configuración haproxy.cfg ubicado en /etc/haproxy/
 
