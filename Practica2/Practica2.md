@@ -26,7 +26,7 @@ Además de modificar el archivo /etc/network/interfaces para asignarle una ip es
 ![enter image description here](http://imageshack.com/a/img924/2763/UJh99Q.png)
 ![enter image description here](http://imageshack.com/a/img923/5977/j0ppwH.png)
 
-**2 Acceso sin contraseña para ssh **
+**2 Acceso sin contraseña para ssh**
 
 - Generamos la clave mediante ssh-keygen con la opción -t para el tipo de clave.
 ![enter image description here](http://imageshack.com/a/img923/9095/uuMkxJ.png)
@@ -40,7 +40,7 @@ Además de modificar el archivo /etc/network/interfaces para asignarle una ip es
 	![enter image description here](http://imageshack.com/a/img922/4695/olurPv.png)
 
 
-** 3. Programación de tareas con crontab **
+**3.Programación de tareas con crontab**
  
 - Accedemos a /etc/crontab, en el que le indicaremos como se muestra en la captura en la última línea que se haga una sincronización cada dos minutos.
 	![enter image description here](http://imageshack.com/a/img924/4314/nq6Mr5.png)
