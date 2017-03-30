@@ -5,6 +5,8 @@
 - thttpd
 - Cherokee
 - node.js
+
+
 **Apache**
 Es un servidor web multiplataforma, lo que permite trabajar con diferentes sitemas operativos y mantener un rendimiento excelente. Principalmente es utilizado para realizar servicio a páginas webs ya sean estáticas o dinámicas y es popular gracias a su estabilidad y seguridad.
 Apache frente a otros servidores web ofrece compatibilidad total con la mayoria de aplicacionapache
