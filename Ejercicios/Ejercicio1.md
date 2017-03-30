@@ -1,6 +1,6 @@
 
-> ## Ejercicio 1. Buscar información sobre los servicios web para los que se usan más los siguientes:
-- apache
+> ## Ejercicio 1. Buscar información sobre los servicios web:
+
 - nginx
 - thttpd
 - Cherokee
