@@ -1,6 +1,7 @@
 
-> ## Ejercicio 1. Buscar información sobre los servicios web:
+> ## Ejercicio 1. Buscar información sobre los servicios web para lo que se usan más los siguientes programas:
 
+- apache
 - nginx
 - thttpd
 - Cherokee
@@ -9,11 +10,7 @@
 
 **Apache**
 Es un servidor web multiplataforma, lo que permite trabajar con diferentes sitemas operativos y mantener un rendimiento excelente. Principalmente es utilizado para realizar servicio a páginas webs ya sean estáticas o dinámicas y es popular gracias a su estabilidad y seguridad.
-Apache frente a otros servidores web ofrece compatibilidad total con la mayoria de aplicacionapache
-nginx
-thttpd
-Cherokee
-node.jss y es muy flexible y configurable.
+Apache frente a otros servidores web ofrece compatibilidad total y es muy flexible y configurable.
 Entre sus principales características se encuentran las siguientes:
 dar soporte de seguridad SSL y TLS, puede realizar autentificación de datos utilizando SGDB y también da soporte a diferentes lenguajes como Perl, PHP, python y tcl.
 
