@@ -10,15 +10,18 @@
 
 
 **Con dos elementos en cada subsistema**
+
 Para calcular la segunda disponibilidad hemos aplicado la fórmula siguiente:
 
 	As = Ac n-1 + ( (1 – Acn-1 ) * Acn )
 	
 ![enter image description here](http://imageshack.com/a/img923/5223/pH3GFu.png)
 
-Queremos calcular un total de 3 elementos en cada subsistema. Volvemos a aplicar la fórmula anterior
+Queremos calcular un total de 3 elementos en cada subsistema. 
+Volvemos a aplicar la fórmula anterior
 
 availability3_Web= 97,75% + ( (1 –97,75%) *  85% )= 99,66%
+
 Y así para uno de los componentes, lo que nos quedaría la siguiente tabla.
 
 ![enter image description here](http://imageshack.com/a/img923/9177/1bc69F.png)
