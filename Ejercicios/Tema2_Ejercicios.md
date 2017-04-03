@@ -53,7 +53,7 @@ Para analizar el nivel de carga podemos usar:
  - Zenoss: para monitorizar almacenamiento, redes, servidores, aplicaciones y servidores virtuales.
  - Observium: herramienta de monitoreo de red multiplataforma (principalmente enfocada en Linux, Unix, HP).
 
-### **4. Buscar ejemplos de balanceadores software y hardware (productos comerciales).
+### **4. Buscar ejemplos de balanceadores software y hardware (productos comerciales).**
 
 **Balanceadores hardware**
 
