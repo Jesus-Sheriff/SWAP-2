@@ -1,5 +1,5 @@
-> ## Práctica 3. Balanceo de carga
-### **Objetivo**
+> ## Práctica 3
+###  **Objetivo**
 En esta práctica el objetivo es configurar las máquinas virtuales de forma que dos hagan de servidores web finales mientras que la tercera haga de balanceador de carga por software.
 En esta práctica se llevarán a cabo, como mínimo, las siguientes tareas:
 
@@ -12,7 +12,7 @@ En esta práctica se llevarán a cabo, como mínimo, las siguientes tareas:
 
 **1.Instalar una nueva maquina para el balanceador.**
 
-Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga, teniendo en cuenta que no debemos instalar Apache porque éste se apropia del puerto 80.
+Instalamos otra máquina con Ubuntu Server que hará de balanceador de carga.
 	
 **2.Instalacion nginx**
 	
@@ -47,20 +47,19 @@ Y añadimos lo siguiente:
 	
 - Comprobamos que funciona correctamente con el comando curl
 
-	![enter image description here](http://imageshack.com/a/img924/6082/eHsvM3.png)
+	![enter image description here](http://imageshack.com/a/img924/5598/d22pgH.png)
 
 
 Si sabemos si una máquina es más potente que otra podemos modificar la carga que se le da a cada una, a través del modificador llamado "weight"
 
 
-**2.Instalación haProxy**
+**2.Instalacion haProxy**
 
-Tenemos que reiniciar la máquina o para el servicio de nginx (service nginx stop) para dejar el puerto 80 libre para haProxy.
-Procedemos con la instalación de haproxy
-apt-get install haproxy
+	apt-get install haproxy
 
 - Una vez instalado procedemos a modificar el archivo de configuración haproxy.cfg ubicado en /etc/haproxy/
 
 	![enter image description here](http://imageshack.com/a/img924/9613/pl2ymK.png)
 
 - Comprobamos que funciona correctamente
+![enter image description here](http://imageshack.com/a/img922/2929/xjMa4Z.png)
