@@ -68,9 +68,10 @@ Si sabemos si una máquina es más potente que otra podemos modificar la carga q
 
 
 **3. Someter a una alta carga el servidor balanceado**
-- Para comprobar el rendimiento de nuestra granja web utilizaremos Apache Benchmark.
-- En una máquina diferente a la formada por la de nuestra granja web ejecutamos Apache Benchmark, para ver el rendimiento real y que no consuman recursos de la misma máquina.
+Para comprobar el rendimiento de nuestra granja web utilizaremos Apache Benchmark. En una máquina diferente a la formada por la de nuestra granja web ejecutamos Apache Benchmark, para ver el rendimiento real y que no consuman recursos de la misma máquina.
 
+		ab -n 1000 -c 10 http://192.168.56.103/index.html
+	
 - Con HaProxy como balanceador
 
 	![enter image description here](http://imageshack.com/a/img923/9071/EdONyC.png)
