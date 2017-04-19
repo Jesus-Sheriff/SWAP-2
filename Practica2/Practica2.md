@@ -45,7 +45,6 @@ Además de modificar el archivo /etc/network/interfaces para asignarle una ip es
 - Accedemos a /etc/crontab, en el que le indicaremos como se muestra en la captura en la última línea que se haga una sincronización cada dos minutos.
 	![enter image description here](http://imageshack.com/a/img924/4314/nq6Mr5.png)
 
- - Comprobamos que se realiza la sincronización programada con crontab correctamente.
+ - Y podemos comprobar que se realiza la sincronización programada con crontab correctamente añadiendo algun archivo y esperado el tiempo que hemos programado.
  
- (captura)
 	
