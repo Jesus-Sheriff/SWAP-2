@@ -61,5 +61,7 @@ Si sabemos si una máquina es más potente que otra podemos modificar la carga q
 
 	![enter image description here](http://imageshack.com/a/img924/9613/pl2ymK.png)
 
+- Paramos el servicio de nginx y reiniciamos haproxy 
+![enter image description here](http://imageshack.com/a/img923/1566/DaFmNE.png)
 - Comprobamos que funciona correctamente
 ![enter image description here](http://imageshack.com/a/img922/2929/xjMa4Z.png)
