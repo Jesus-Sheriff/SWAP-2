@@ -7,7 +7,7 @@ Configurar seguridad de la granja web. Para ello, llevaremos a cabo las siguient
 ------------------------------------------------------------------------------------
 
 
-**1. 1. Instalación de un certificado SSL para configurar el acceso HTTPS a los servidores. **
+**1. Instalación de un certificado SSL para configurar el acceso HTTPS a los servidores.**
 
 Para generar un certificado SSL autofirmado tenemos que activar el módulo SSL de Apache, generar los certificados y especificarle la ruta a los certificados en la configuración.
 
