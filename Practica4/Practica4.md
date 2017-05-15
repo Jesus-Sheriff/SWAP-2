@@ -20,11 +20,11 @@ Para generar un certificado SSL autofirmado tenemos que activar el módulo SSL d
 
 	![enter image description here](http://oi67.tinypic.com/qx8cd2.jpg)
 
+	Rellenamos una serie de datos para configurar el dominio así como el correo, la provincia...
 
-Nos pide una serie de datos para configurar el dominio así como la provincia, el correo electrónico...etc
+	 ![enter image description here](http://i.imgur.com/h6pauBO.png)
+  		
+  	![enter image description here](http://i.imgur.com/nWJOZMy.png)
 
-	
-![enter image description here](http://i.imgur.com/h6pauBO.png)
 
-	![enter image description here](http://i.imgur.com/nWJOZMy.png)
-
+						
