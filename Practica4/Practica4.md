@@ -44,3 +44,14 @@ Para generar un certificado SSL autofirmado tenemos que activar el módulo SSL d
 
 		SSLCertificateFile /etc/apache2/ssl/apache.crt
 		SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+
+	![enter image description here](http://i.imgur.com/mR5zJrO.png)
+
+- Activamos el sitio default--ssl y reiniciamos apache:
+		
+			a2ensite default-ssl
+			service apache2 reload
+
+- Comprobamos que se usa el certificado desde nuestro navegador añadiendo la ip de nuestra máquina.
+
+	![enter image description here](http://i.imgur.com/7Xe3kZF.png)
