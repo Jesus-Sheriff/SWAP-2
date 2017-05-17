@@ -80,3 +80,29 @@ Para comprobar el rendimiento de nuestra granja web utilizaremos Apache Benchmar
 - Con nginx como balanceador 
 
 	![enter image description here](http://imageshack.com/a/img924/2667/FYI3Vk.png)
+
+
+**4. Instalación Pound, otro balanceador de carga. (Opcional)**
+
+ - Instalamos Pound mediante el comando: 	
+			
+				apt-get install Pound
+
+ -  Configuración Pound
+
+
+En el primer Address añadimos la dirección de nuestra máquina balanceadora y cambiamos el puerto 80, y más abajo podemos observar que hemos añadido las direcciones de máquina1 y la máquina2.
+![enter image description here](http://i.imgur.com/N9MR22x.png)
+
+- Reiniciamos el servicio
+
+			service pound restart
+
+
+- Nos aseguramos que esté activo solo Pound
+
+![enter image description here](http://i.imgur.com/W1ylSDl.png)
+
+- Comprobamos su funcionamiento mediante curl
+
+![enter image description here](http://i.imgur.com/XZBDpRy.png)
