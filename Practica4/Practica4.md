@@ -88,4 +88,19 @@ Por lo que ahora ya tenemos las reglas configuradas de iptables  permitiendo el 
 ![enter image description here](http://i.imgur.com/MtwAZfO.png)
 
 
+**3  Instalación del certificado SSL en balanceador Nginx (Opcional).**
+
+- Copiamos el certificado en la máquina balanceadora
+
+	![enter image description here](http://i.imgur.com/X4FJD8i.png)
+
+- Modificamos el archivo de configuración de nginx, /etc/nginx/conf.d/default.conf
+
+
+	![enter image description here](http://i.imgur.com/vEOV7Qx.png)
+
+
+
+
+
 
