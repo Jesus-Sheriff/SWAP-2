@@ -57,3 +57,32 @@ Para generar un certificado SSL autofirmado tenemos que activar el módulo SSL d
 - Comprobamos que se usa el certificado desde nuestro navegador añadiendo la ip de nuestra máquina.
 
 	![enter image description here](http://i.imgur.com/7Xe3kZF.png)
+
+Para la máquina 2, copiamos el certificado mediante rsync 
+
+![enter image description here](http://i.imgur.com/ghgNgSQ.png)
+
+
+**2. Configuración del cortafuegos iptables en Linux.**
+
+- Creacion script, que he ubicado en home/patriciamaldonado
+
+	![Imagennnn](http://i.imgur.com/2GoiEgE.png)
+
+- Tenemos que darle permisos a los archivos de iptables para que se puedan ejecutar.
+
+	 ![enter image description here](http://i.imgur.com/AVylout.png)
+	 
+- Añadimos la configuración de iptables para que aplique siempre que se inicia al fichero contrab situado en etc/crontab.
+
+	![enter image description here](http://i.imgur.com/EBnWjFK.png)
+- Comprobamos que el script funciona ya que ha creado las reglas definidas en el archivo de configuracion de iptables.
+
+	![enter image description here](http://i.imgur.com/YRqMpdR.png)
+
+Por lo que ahora se conectará por https y http como podemos ver en la siguiente imagen.
+
+![enter image description here](http://i.imgur.com/MtwAZfO.png)
+
+
+
