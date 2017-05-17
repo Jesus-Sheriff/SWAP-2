@@ -80,7 +80,7 @@ Para la máquina 2, copiamos el certificado mediante rsync
 
 	![enter image description here](http://i.imgur.com/YRqMpdR.png)
 
-Por lo que ahora se conectará por https y http como podemos ver en la siguiente imagen.
+Por lo que ahora ya tenemos las reglas configuradas de iptables  permitiendo el acceso por los puertos  HTTP y HTTPS. 
 
 ![enter image description here](http://i.imgur.com/MtwAZfO.png)
 
