@@ -20,7 +20,13 @@ ________________________________________________________________________________
   
 **2. Replicar una BD MySQL con mysqldump.**
 
-![enter image description here](http://i.imgur.com/S4w06FQ.png)
+Tenemos que tener en cuenta que los datos en la base de datos pueden estar actualizandose constantemente, por lo que debemos evitar que se acceda a la BD para modificar nada.
+
+
+	mysql -u root -p 
+	mysql> FLUSH TABLES WITH READ LOCK;
+	mysql> quit
+(hacer eso de arriba en m1) voy por ahi :D
 **3. Replicar una BD mediante una configuración maestro-esclavo.**
 
 **4. Replicar una BD mediante una configuración maestro-maestro. (Opcional)**
