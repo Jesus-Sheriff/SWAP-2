@@ -77,8 +77,8 @@ que debemos de establecerla a 2.
 
 Entramos en mysql y ejecutamos las siguientes sentencias:
 
-			mysql> CREATE USER esclavo IDENTIFIED BY 'esclavo';
-			mysql> GRANT REPLICATION SLAVE ON  *.*  TO  'esclavo'@'%'  IDENTIFIED  BY 'esclavo'; 
+	mysql> CREATE USER esclavo IDENTIFIED BY 'esclavo';
+	mysql> GRANT REPLICATION SLAVE ON  *.*  TO  'esclavo'@'%'  IDENTIFIED  BY 'esclavo'; 
 	mysql> FLUSH PRIVILEGES;
 	mysql> FLUSH TABLES;
 	mysql> FLUSH TABLES WITH READ LOCK;
