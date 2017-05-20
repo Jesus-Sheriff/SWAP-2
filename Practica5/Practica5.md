@@ -82,4 +82,20 @@ Entramos en mysql y ejecutamos las siguientes sentencias:
 	mysql> FLUSH PRIVILEGES;
 	mysql> FLUSH TABLES;
 	mysql> FLUSH TABLES WITH READ LOCK;
+
+- Obtenemos los datos de la base de datos que vamos a replicar, que usaremos posteriormente en la configuración de la máquina2 esclavo.
+
+	![enter image description here](http://i.imgur.com/PqQ8vtL.png)
+
+- Volvemos a la máquina2 esclavo, entramos a mysql y le damos los datos del maestro, en estas setencias tenemos que tener en cuenta en MASTER_HOST indicar correctamente la ip de nuestra máquina maestro, MASTER_LOG_POST indicarle la posición mostrada anteriormente, además de indicar EL MASTER_LOG_FILE correctamente. 
+
+	![enter image description here](http://i.imgur.com/hKENEBo.png)
+	
+- Por último, arrancamos el esclavo y ya está todo listo para que los demonios de MySQL de las dos máquinas repliquen automáticamente los datos que se introduzcan/modifiquen/borren en el servidor maestro:
+
+		mysql> START SLAVE;
+
+
+
+
 **4. Replicar una BD mediante una configuración maestro-maestro. (Opcional)**
