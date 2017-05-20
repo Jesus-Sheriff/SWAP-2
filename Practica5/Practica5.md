@@ -49,8 +49,31 @@ mysql> quit
 
 mysql -u root -p ejemplodb < /tmp/ejemplodb.sql
 
-
-
 **3. Replicar una BD mediante una configuración maestro-esclavo.**
+
+- Primero vamos a configurar la máquina que hace de maestro, para ello, tenemos que editar el archivo: /etc/mysql/mysql.conf.d/mysqld.cnf
+Tenemos que hacer las siguientes modificaciones:
+			
+	- Comentamos el parámetro bin-address que sirve para que escuche a un servidor:
+		 `	#bin-address 127.0.0.1
+	- Indicamos la ruta donde almacenar el lol de errores.
+			log_error = /var/log/mysql/error.log
+	- Establecemos el identificador del servidor
+			server-id = 1
+	- Almacenamiento del registro binario 
+		log_bin = /var/log/mysql/bin.log
+	-  Y por último reiniciamos el servicio
+
+		![enter image description here](http://i.imgur.com/MxngzHf.png)
+
+- Procedemos a configurar la máquina que hará de esclavo (máquina2)
+	- Para ello deberemos de hacer las mismas modificaciones descritas anteriormente para la máquina1, salvo en la línea  server-id = 2
+que debemos de establecerla a 2.
+
+		![enter image description here](http://i.imgur.com/wYXB0TD.png)
+
+
+- Volvemos a la máquina1 maestro para crear un usuario y darle permisos de acceso para la replicación.
+
 
 **4. Replicar una BD mediante una configuración maestro-maestro. (Opcional)**
