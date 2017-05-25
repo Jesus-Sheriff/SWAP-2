@@ -64,7 +64,7 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 	![enter image description here](http://i.imgur.com/j0Zt3uk.png)
 	
 
- - Añadimos un nuevo disco  que vendría a reemplazar al disco que hemos retirado.
+ - Añadimos un nuevo disco  que vendría a reemplazar al disco que hemos retirado y comprobamos que se reconstruye correctamente.
 		 
 		  sudo mdadm --manage --add /dev/md0 /dev/sdb
 
