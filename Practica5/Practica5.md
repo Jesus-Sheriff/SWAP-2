@@ -109,8 +109,7 @@ He hecho una clonación de las máquinas maestro-esclavo. Primero habra que ir a
 
 ![enter image description here](http://i.imgur.com/SYgGzyt.png)
 
-![enter image description here](blob:http://imgur.com/c6690744-8be6-48c4-9a63-cae66f40d7ac)
-
+![enter image description here](http://i.imgur.com/EHgf97L.png)
 Ahora tendremos que irnos a la máquina configurada como maestro, para indicarle que la otra es su maestro.
 
 ![enter image description here](http://i.imgur.com/a7WkhA3.png)
