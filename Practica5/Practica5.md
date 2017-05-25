@@ -50,6 +50,7 @@ mysql> quit
 mysql -u root -p ejemplodb < /tmp/ejemplodb.sql
 
 **3. Replicar una BD mediante una configuración maestro-esclavo.**
+La máquina1 hará de maestro para la máquina 2 que será la esclavo, por lo tanto al modificar algo en el maestro, se actualizará en el esclavo.
 
 - Primero vamos a configurar la máquina que hace de maestro, para ello, tenemos que editar el archivo: /etc/mysql/mysql.conf.d/mysqld.cnf
 Tenemos que hacer las siguientes modificaciones:
@@ -101,3 +102,19 @@ Para comprobar que todo funciona, insertamos nuevos datos en la máquina maestro
 ![enter image description here](http://i.imgur.com/yZWJE38.png)
 
 **4. Replicar una BD mediante una configuración maestro-maestro. (Opcional)**
+
+En este caso configuraremos las máquinas para que cada una se crea que es el maestro y así al modificar datos en la base da datos de cualquier máquina se actualizará en la otra.
+
+He hecho una clonación de las máquinas maestro-esclavo. Primero habra que ir a la segunda máquina que teníamos configurada como esclavo y crear un usuario.
+
+![enter image description here](http://i.imgur.com/SYgGzyt.png)
+
+![enter image description here](blob:http://imgur.com/c6690744-8be6-48c4-9a63-cae66f40d7ac)
+
+Ahora tendremos que irnos a la máquina configurada como maestro, para indicarle que la otra es su maestro.
+
+![enter image description here](http://i.imgur.com/a7WkhA3.png)
+
+Comprobamos que realmente funciona esta configuración, añadiendo datos en cada máquina y visualizando que se ha actualizado en la otra máquina.
+
+![enter image description here](http://i.imgur.com/7IEtE8D.png)
