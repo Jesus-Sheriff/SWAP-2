@@ -41,12 +41,14 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 	![enter image description here](http://i.imgur.com/BVs3Fu3.png)
 
  7. Comprobamos el estados del RAID
+ 
 ![enter image description here](http://i.imgur.com/NnYEbGq.png)
 
  8.  Por último vamos a configurar el sistemas para que monte  el dispositvo RAID al arrancar el sistema.
  9.  Obtenemos los UUID de los dispositivos
 		 
 			 	ls -l /dev/disk/by-uuid/
+			 	
 	![enter image description here](http://i.imgur.com/mDVy9e5.png)		
 
  10. Editamos el archvo /etc/fstab y añadimos la línea siguiente con el UUID obtenido anteriormente:
