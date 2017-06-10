@@ -38,7 +38,7 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 			sudo mkdir /dat
 			sudo mount /dev/md0 /dat
 
-	![enter image description here](http://i.imgur.com/BVs3Fu3.png)
+![enter image description here](http://i.imgur.com/BVs3Fu3.png)
 
  7. Comprobamos el estados del RAID
  
@@ -55,7 +55,7 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 
 		UUID=ccbbbbcc-dddd-eeee-ffff-aaabbbcccddd /dat ext2 defaults 0 0
 
-	![enter image description here](http://i.imgur.com/dISbl7r.png)
+![enter image description here](http://i.imgur.com/dISbl7r.png)
 		
 
  11. Vamos a simular un fallo en uno de los discos y a retirar el dispositivo en caliente.
@@ -63,7 +63,7 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 			sudo mdadm --manage --set-faulty /dev/md0 /dev/sdb
 			sudo mdadm --manage --remove /dev/md0 /dev/sdb
 			
-	![enter image description here](http://i.imgur.com/j0Zt3uk.png)
+![enter image description here](http://i.imgur.com/j0Zt3uk.png)
 	
 
  12. Añadimos un nuevo disco  que vendría a reemplazar al disco que hemos retirado y comprobamos que se reconstruye correctamente.
