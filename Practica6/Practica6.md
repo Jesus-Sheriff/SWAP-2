@@ -49,7 +49,7 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 		 
 			 	ls -l /dev/disk/by-uuid/
 			 	
-	![enter image description here](http://i.imgur.com/mDVy9e5.png)		
+![enter image description here](http://i.imgur.com/mDVy9e5.png)		
 
  10. Editamos el archvo /etc/fstab y añadimos la línea siguiente con el UUID obtenido anteriormente:
 
@@ -70,7 +70,6 @@ más, que serán el /dev/sdb y el /dev/sdc, para configurar el dispositivo de al
 		 
 		  sudo mdadm --manage --add /dev/md0 /dev/sdb
 
-	 ![enter image description here](http://i.imgur.com/K5deMV6.png)
-	![enter image description here](http://i.imgur.com/sEXX9ht.png)
-
+![enter image description here](http://i.imgur.com/K5deMV6.png)
+![enter image description here](http://i.imgur.com/sEXX9ht.png)
  
